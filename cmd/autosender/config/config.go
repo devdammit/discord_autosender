@@ -8,12 +8,6 @@ import (
 )
 
 type Conf struct {
-	Security struct {
-		Token      string `yaml:"token"`
-		UserAgent  string `yaml:"user_agent"`
-		SecChUa    string `yaml:"sec_ch_ua"`
-		XSuperProp string `yaml:"x_super_properties"`
-	}
 	Message struct {
 		ServerID  string `yaml:"server_id"`
 		ChannelID string `yaml:"channel_id"`
