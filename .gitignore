@@ -1,0 +1,5 @@
+vendor/
+cmd/autosender/curl.txt
+cmd/cparse/curl.txt
+
+.idea
