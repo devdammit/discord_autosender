@@ -23,7 +23,7 @@ type Conf struct {
 }
 
 func (c *Conf) GetConf() *Conf {
-	file, err := ioutil.ReadFile("./config.yml")
+	file, err := ioutil.ReadFile("config.yml")
 	if err != nil {
 		log.Printf("Cant get config #%v", err)
 	}

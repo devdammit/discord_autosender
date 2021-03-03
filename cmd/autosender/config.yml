@@ -1,5 +1,5 @@
 message:
-    text: "@Костя#1624 ???"
+    text: "Planned message"
     server_id: 426485886390108161
     channel_id: 727931852605882400
 
@@ -9,7 +9,11 @@ settings:
 
 planned:
   - 11
+  - 12
+  - 13
   - 14
+  - 15
+  - 16
   - 18
   - 19
   - 20

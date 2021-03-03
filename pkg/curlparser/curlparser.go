@@ -12,7 +12,7 @@ type CurlParser struct {
 }
 
 func (cp *CurlParser) GetConf() *CurlParser {
-	file, err := ioutil.ReadFile("./curl.txt")
+	file, err := ioutil.ReadFile("curl.txt")
 	if err != nil {
 		log.Printf("Cant get config #%v", err)
 	}
